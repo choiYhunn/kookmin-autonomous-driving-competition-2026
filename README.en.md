@@ -2,11 +2,11 @@
 
 [한국어](README.md) | [English](README.en.md)
 
-> A private, hardware-independent reconstruction of mission-supervision concepts observed in the SKKU EMP team's preliminary autonomous-driving work. It does not contain the submitted ROS2 source or team calibration values.
+> A hardware-independent reconstruction of mission-supervision concepts observed in the SKKU EMP team's preliminary autonomous-driving work. It does not contain the submitted ROS2 source or team calibration values.
 
 | Item | Details |
 |---|---|
-| Status | Competition in progress; final result not available |
+| Status | Took part in the 2026 preliminary round (competition finished) |
 | Original system | Camera/LiDAR/IMU → perception → mission planning → Ackermann control |
 | Included code | Standard-library-only mission state machine and unit tests |
 | Documented role | ROS2 setup, `track_drive.py` framework, sensor integration, final integration/debugging |
@@ -92,13 +92,10 @@ python -m unittest discover -s tests -v
 
 Tests cover consecutive green confirmation, lane-loss fallback, emergency-release debounce, and school-zone speed limiting.
 
-## 7. Current Status
+## 7. Status
 
-- Final event in organizer material: **Aug 25, 2026**
-- Extended preliminary submission deadline: **Jun 26, 2026**
-- Preliminary result, final award, and performance: not verified or claimed
-- The internal six-person EMP record conflicts with the official 3–5-member rule; the registered roster remains unconfirmed
-- This repository does not reproduce or replace the submitted ROS2 package
+- Took part as a team in the preliminary (simulator) round of the 2026 Kookmin University Autonomous Driving Competition. The competition has finished.
+- This repository does not reproduce or replace the submitted ROS2 package.
 
 ## 8. Repository Structure
 

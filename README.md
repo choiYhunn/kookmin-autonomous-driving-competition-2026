@@ -2,11 +2,11 @@
 
 [한국어](README.md) | [English](README.en.md)
 
-> 성균관대학교 EMP 팀의 예선 자율주행 작업에서 확인한 시스템 통합 개념을 **hardware-independent mission supervisor**로 다시 구성한 비공개 저장소입니다. 실제 제출 ROS2 source나 팀 calibration 값은 포함하지 않습니다.
+> 성균관대학교 EMP 팀의 예선 자율주행 작업에서 확인한 시스템 통합 개념을 **hardware-independent mission supervisor**로 다시 구성한 저장소입니다. 실제 제출 ROS2 source나 팀 calibration 값은 포함하지 않습니다.
 
 | 항목 | 내용 |
 |---|---|
-| 상태 | 대회 진행 중, 최종 결과 미확정 |
+| 상태 | 2026 예선 참가 (대회 종료) |
 | 원 시스템 | Camera/LiDAR/IMU → perception → mission planning → Ackermann control |
 | 공개 코드 | 표준 Python만 사용하는 mission state machine과 unit test |
 | 확인된 역할 문서 | ROS2 setup, `track_drive.py` framework, sensor integration, final integration/debugging |
@@ -97,13 +97,10 @@ python -m unittest discover -s tests -v
 - emergency stop release debounce
 - school-zone speed cap
 
-## 7. 현재 상태
+## 7. 상태
 
-- Organizer 일정 자료의 final event: **2026.08.25**
-- 연장된 preliminary submission deadline: **2026.06.26**
-- 예선 결과, 최종 수상과 성능: 확인되지 않아 주장하지 않음
-- EMP 내부 자료의 6명 표기와 공식 규정의 3–5명 조건이 충돌하므로 final roster 미확정
-- 이 저장소는 실제 제출 ROS2 package를 재현하거나 대체하지 않음
+- 2026 국민대학교 자율주행 경진대회 예선(시뮬레이터 과제)에 팀으로 참가했습니다. 대회는 종료됐습니다.
+- 이 저장소는 실제 제출 ROS2 package를 재현하거나 대체하지 않습니다.
 
 ## 8. 저장소 구조
 
